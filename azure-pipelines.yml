@@ -6,11 +6,8 @@
 trigger:
 - main
 
-pool:
-  name:valpool
-  demands:
-   - agent.name -equals valpool
-
+pool: valpool
+  
 steps:
 - task: Maven@3
   inputs:
